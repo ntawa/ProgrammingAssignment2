@@ -1,5 +1,5 @@
 ## Two functions to cache the result of the inverse function on a matrix, with the second function used to check if an existing inverse has been calculated, otherwise execute the inverse
-
+ 
 ## makeCacheMatrix creates a special "matrix", which is really a list containing a function to: 
 ##      set the value of the matrix
 ##      get the value of the matrix
@@ -36,3 +36,4 @@ cacheSolve <- function(x, ...) {
         x$setinverse(m)
         m
 }
+ 
